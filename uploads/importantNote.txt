@@ -1,0 +1,1 @@
+Because empty folder do not deploy on github. If upload folder do not deploy in `render`, file can not be uploaded. Node.js current working directory error.
