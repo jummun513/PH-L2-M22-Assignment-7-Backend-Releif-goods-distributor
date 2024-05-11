@@ -160,7 +160,7 @@ async function run() {
             amount: z.number({
                 required_error: "Amount is required",
                 invalid_type_error: "Amount must be a number",
-            }).nonnegative('Only positive numbers allowed!')
+            }).nonnegative('Only positive number is allowed!')
         });
 
         // create new supply
